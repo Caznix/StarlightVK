@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/chance/Development/cpp/StarlightVK/build",
+  "command": "/usr/bin/clang++   -g -o CMakeFiles/StarlightVK.dir/main.cpp.o -c /home/chance/Development/cpp/StarlightVK/main.cpp",
+  "file": "/home/chance/Development/cpp/StarlightVK/main.cpp",
+  "output": "CMakeFiles/StarlightVK.dir/main.cpp.o"
+}
+]

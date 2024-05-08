@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/StarlightVK.dir/main.cpp.o -o /home/chance/Development/cpp/StarlightVK/bin/StarlightVK

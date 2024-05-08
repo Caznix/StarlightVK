@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-clang++"
+	BuildStamp="20240506-2145-Experimental"
+	Name="GreenMachine"
+	Generator="ctest-3.29.2"
+	CompilerName="/usr/bin/clang++"
+	CompilerVersion="17.0.6"
+	OSName="Linux"
+	Hostname="GreenMachine"
+	OSRelease="6.8.9-lqx1-1-lqx"
+	OSVersion="#1 ZEN SMP PREEMPT Thu, 02 May 2024 20:22:34 +0000"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="25"
+	ModelID="80"
+	ProcessorCacheSize="512"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="4095"
+	TotalPhysicalMemory="31431"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="4192.35"
+	>
+	<Testing>
+		<StartDateTime>May 06 17:48 EDT</StartDateTime>
+		<StartTestTime>1715032109</StartTestTime>
+		<TestList/>
+		<EndDateTime>May 06 17:48 EDT</EndDateTime>
+		<EndTestTime>1715032109</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
