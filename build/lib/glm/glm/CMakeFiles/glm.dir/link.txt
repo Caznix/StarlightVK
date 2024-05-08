@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/chance/Development/cpp/StarlightVK/lib/libglm.a CMakeFiles/glm.dir/detail/glm.cpp.o
+/usr/bin/ranlib /home/chance/Development/cpp/StarlightVK/lib/libglm.a

@@ -92,6 +92,11 @@ StarlightVK_EXTERNAL_OBJECTS =
 
 /home/chance/Development/cpp/StarlightVK/bin/StarlightVK: CMakeFiles/StarlightVK.dir/main.cpp.o
 /home/chance/Development/cpp/StarlightVK/bin/StarlightVK: CMakeFiles/StarlightVK.dir/build.make
+/home/chance/Development/cpp/StarlightVK/bin/StarlightVK: /home/chance/Development/cpp/StarlightVK/lib/libglfw3.a
+/home/chance/Development/cpp/StarlightVK/bin/StarlightVK: /lib/libvulkan.so
+/home/chance/Development/cpp/StarlightVK/bin/StarlightVK: /usr/lib/libglm.a
+/home/chance/Development/cpp/StarlightVK/bin/StarlightVK: /usr/lib/librt.a
+/home/chance/Development/cpp/StarlightVK/bin/StarlightVK: /usr/lib/libm.so
 /home/chance/Development/cpp/StarlightVK/bin/StarlightVK: CMakeFiles/StarlightVK.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/chance/Development/cpp/StarlightVK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/chance/Development/cpp/StarlightVK/bin/StarlightVK"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/StarlightVK.dir/link.txt --verbose=$(VERBOSE)

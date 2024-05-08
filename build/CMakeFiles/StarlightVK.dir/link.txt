@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/StarlightVK.dir/main.cpp.o -o /home/chance/Development/cpp/StarlightVK/bin/StarlightVK
+/usr/bin/c++ CMakeFiles/StarlightVK.dir/main.cpp.o -o /home/chance/Development/cpp/StarlightVK/bin/StarlightVK  /home/chance/Development/cpp/StarlightVK/lib/libglfw3.a /lib/libvulkan.so /usr/lib/libglm.a /usr/lib/librt.a -lm -ldl
