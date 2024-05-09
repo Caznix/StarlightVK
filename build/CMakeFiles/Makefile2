@@ -917,15 +917,15 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 # Target rules for target CMakeFiles/StarlightVK.dir
 
 # All Build rule for target.
-CMakeFiles/StarlightVK.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
+CMakeFiles/StarlightVK.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StarlightVK.dir/build.make CMakeFiles/StarlightVK.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StarlightVK.dir/build.make CMakeFiles/StarlightVK.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chance/Development/cpp/StarlightVK/build/CMakeFiles --progress-num=1,2 "Built target StarlightVK"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chance/Development/cpp/StarlightVK/build/CMakeFiles --progress-num=1 "Built target StarlightVK"
 .PHONY : CMakeFiles/StarlightVK.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/StarlightVK.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chance/Development/cpp/StarlightVK/build/CMakeFiles 47
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chance/Development/cpp/StarlightVK/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/StarlightVK.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chance/Development/cpp/StarlightVK/build/CMakeFiles 0
 .PHONY : CMakeFiles/StarlightVK.dir/rule
@@ -972,7 +972,7 @@ lib/glfw/CMakeFiles/uninstall.dir/clean:
 lib/glfw/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib/glfw/src/CMakeFiles/glfw.dir/build.make lib/glfw/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/glfw/src/CMakeFiles/glfw.dir/build.make lib/glfw/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chance/Development/cpp/StarlightVK/build/CMakeFiles --progress-num=4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chance/Development/cpp/StarlightVK/build/CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47 "Built target glfw"
 .PHONY : lib/glfw/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
@@ -998,7 +998,7 @@ lib/glfw/src/CMakeFiles/glfw.dir/clean:
 lib/glfw/src/CMakeFiles/update_mappings.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib/glfw/src/CMakeFiles/update_mappings.dir/build.make lib/glfw/src/CMakeFiles/update_mappings.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/glfw/src/CMakeFiles/update_mappings.dir/build.make lib/glfw/src/CMakeFiles/update_mappings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chance/Development/cpp/StarlightVK/build/CMakeFiles --progress-num=51 "Built target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chance/Development/cpp/StarlightVK/build/CMakeFiles --progress-num=50 "Built target update_mappings"
 .PHONY : lib/glfw/src/CMakeFiles/update_mappings.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1024,7 +1024,7 @@ lib/glfw/src/CMakeFiles/update_mappings.dir/clean:
 lib/glfw/docs/CMakeFiles/docs.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib/glfw/docs/CMakeFiles/docs.dir/build.make lib/glfw/docs/CMakeFiles/docs.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/glfw/docs/CMakeFiles/docs.dir/build.make lib/glfw/docs/CMakeFiles/docs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chance/Development/cpp/StarlightVK/build/CMakeFiles --progress-num=3 "Built target docs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chance/Development/cpp/StarlightVK/build/CMakeFiles --progress-num=2 "Built target docs"
 .PHONY : lib/glfw/docs/CMakeFiles/docs.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1050,7 +1050,7 @@ lib/glfw/docs/CMakeFiles/docs.dir/clean:
 lib/glm/glm/CMakeFiles/glm.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib/glm/glm/CMakeFiles/glm.dir/build.make lib/glm/glm/CMakeFiles/glm.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/glm/glm/CMakeFiles/glm.dir/build.make lib/glm/glm/CMakeFiles/glm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chance/Development/cpp/StarlightVK/build/CMakeFiles --progress-num=49,50 "Built target glm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chance/Development/cpp/StarlightVK/build/CMakeFiles --progress-num=48,49 "Built target glm"
 .PHONY : lib/glm/glm/CMakeFiles/glm.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1076,6 +1076,7 @@ lib/glm/glm/CMakeFiles/glm.dir/clean:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+	$(CMAKE_COMMAND) -P /home/chance/Development/cpp/StarlightVK/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
